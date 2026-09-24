@@ -13,7 +13,7 @@ const company = {
 };
 
 const images = {
-  hero: "https://images.pexels.com/photos/10546026/pexels-photo-10546026.jpeg?cs=srgb&dl=pexels-mohamed-zekry-151631098-10546026.jpg&fm=jpg",
+  hero: `${import.meta.env.BASE_URL}images/hero-fast.jpg`,
   steel: "https://images.pexels.com/photos/8377792/pexels-photo-8377792.jpeg?cs=srgb&dl=pexels-goldcircuits-8377792.jpg&fm=jpg",
   workers: "https://images.pexels.com/photos/11580364/pexels-photo-11580364.jpeg?cs=srgb&dl=pexels-tkirkgoz-11580364.jpg&fm=jpg",
 };

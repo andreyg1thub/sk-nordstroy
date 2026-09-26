@@ -14,10 +14,8 @@ const company = {
 
 const images = {
   hero: `${import.meta.env.BASE_URL}images/hero-fast.jpg`,
-  steel:
-    "https://images.pexels.com/photos/8377792/pexels-photo-8377792.jpeg?cs=srgb&dl=pexels-goldcircuits-8377792.jpg&fm=jpg",
-  workers:
-    "https://images.pexels.com/photos/11580364/pexels-photo-11580364.jpeg?cs=srgb&dl=pexels-tkirkgoz-11580364.jpg&fm=jpg",
+  steel: `${import.meta.env.BASE_URL}images/project-steel.webp`,
+  workers: `${import.meta.env.BASE_URL}images/project-workers.webp`,
 };
 
 const services = [
